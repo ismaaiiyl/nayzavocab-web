@@ -215,9 +215,9 @@
                   <td>Ixtiyoriy (foydalanuvchi roziligi bilan)</td>
                 </tr>
                 <tr>
-                  <td><code>android.permission.REQUEST_INSTALL_PACKAGES</code></td>
-                  <td>Ilova ichidagi OTA yangilagich (In-App Updater) orqali yuklangan rasmiy APK relizini o'rnatishni boshlash.</td>
-                  <td>Ixtiyoriy (har bir yangilanishda so'raladi)</td>
+                  <td><code>android.permission.SCHEDULE_EXACT_ALARM</code></td>
+                  <td>Kunlik lug'at eslatmasini foydalanuvchi tanlagan aniq vaqtda yetkazish.</td>
+                  <td>Ixtiyoriy (eslatma yoqilganda ishlatiladi)</td>
                 </tr>
               </tbody>
             </table>
@@ -225,7 +225,7 @@
 
           <h2 id="section-5">&sect; 5. Tarmoq Aloqasi va Uchinchi Tomon Xizmatlari</h2>
           <p>
-            5.1. Nayza Vocab quyidagi uchinchi tomon infratuzilmalari bilan faqat ochiq va xavfsiz protokollar orqali bog'lanadi:
+            5.1. Nayza Vocab quyidagi uchinchi tomon infratuzilmalari bilan faqat ochiq va xavfsiz protokollar (HTTPS) orqali bog'lanadi:
           </p>
           <ul>
             <li>
@@ -234,8 +234,14 @@
               Foydalanuvchi ushbu so'rovlar davomida tizimda ro'yxatdan o'tmaydi va shaxsiy ma'lumotlarini serverga yubormaydi.
             </li>
             <li>
-              <strong>GitHub Releases API:</strong> Dasturning rasmiy ochiq repozitoriyasidagi yangi relizlar mavjudligini 
-              tekshirish va reliz fayllari havolalarini olish uchun qo'llaniladi.
+              <strong>Google Firebase (Crashlytics &amp; Analytics):</strong> Ilovaning barqaror ishlashini ta'minlash, 
+              kutilmagan to'xtashlar (crash) sabablarini aniqlash hamda foydalanuvchi tajribasini yaxshilash uchun 
+              faqatgina umumiy anonim diagnostika va texnik metrikalarni qayta ishlaydi. Hech qanday shaxsiy ma'lumotlar 
+              (ism, email, parol yoki maxfiy matnlar) uzatilmaydi va saqlanmaydi.
+            </li>
+            <li>
+              <strong>Google Play Store (Google LLC):</strong> Ilovaning rasmiy tarqatish platformasi bo'lib, 
+              yangilanishlar xavfsiz tarzda to'g'ridan-to'g'ri Google Play orqali amalga oshiriladi.
             </li>
           </ul>
           <p>
