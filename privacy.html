@@ -68,55 +68,56 @@
           <div class="legal-meta-item">Yurisdiksiya: <strong>Xalqaro / Ochiq Kodli</strong></div>
         </div>
 
-        <!-- EXECUTIVE SUMMARY TABLE -->
-        <div class="legal-summary-box">
-          <table class="legal-summary-table">
-            <thead>
-              <tr>
-                <th>Mezon / Ko'rsatkich</th>
-                <th>Holat</th>
-                <th>Huquqiy Asos va Tavsif</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Lokal Saqlash (Offline-First)</strong></td>
-                <td><span class="legal-status-tag yes">To'liq Qo'llab-quvvatlanadi</span></td>
-                <td>Barcha shaxsiy lug'atlar va natijalar faqat foydalanuvchi qurilmasida (Hive NoSQL) saqlanadi.</td>
-              </tr>
-              <tr>
-                <td><strong>Shaxsiy Ma'lumotlarni To'plash</strong></td>
-                <td><span class="legal-status-tag no">To'planmaydi</span></td>
-                <td>Ism, telefon raqam, elektron pochta, kontaktlar va aniq geolokatsiya talab qilinmaydi va yig'ilmaydi.</td>
-              </tr>
-              <tr>
-                <td><strong>Tijorat Reklamasi</strong></td>
-                <td><span class="legal-status-tag no">Mavjud Emas</span></td>
-                <td>Ilovada Google AdMob, Meta Audience Network yoki boshqa reklama SDK-lari umuman mavjud emas.</td>
-              </tr>
-              <tr>
-                <td><strong>Xatti-harakat Analitikasi</strong></td>
-                <td><span class="legal-status-tag no">Mavjud Emas</span></td>
-                <td>Foydalanuvchilar harakatlarini kuzatuvchi hech qanday telemetriya yoki tahliliy trekerlar o'rnatilmagan.</td>
-              </tr>
-              <tr>
-                <td><strong>Uchinchi Shaxslarga Sotish</strong></td>
-                <td><span class="legal-status-tag no">Qat'iyan Man Etilgan</span></td>
-                <td>Foydalanuvchiga tegishli hech qanday ma'lumot uchinchi tomonlarga sotilmaydi, ijaraga berilmaydi yoki uzatilmaydi.</td>
-              </tr>
-              <tr>
-                <td><strong>Bolalar Xavfsizligi (COPPA)</strong></td>
-                <td><span class="legal-status-tag yes">To'liq Mos</span></td>
-                <td>13 yoshga to'lmagan bolalardan hech qanday ma'lumot olinmaydi, ta'limiy maqsadlar uchun xavfsiz.</td>
-              </tr>
-            </tbody>
-          </table>
+        <!-- EXECUTIVE SUMMARY CARDS -->
+        <div class="legal-summary-cards">
+          <div class="legal-summary-card">
+            <div class="lsc-top">
+              <span class="lsc-label">Lokal Saqlash (Offline-First)</span>
+              <span class="legal-status-tag yes">✓ Qo'llab-quvvatlanadi</span>
+            </div>
+            <p class="lsc-desc">Barcha shaxsiy lug'atlar va natijalar faqat foydalanuvchi qurilmasida (Hive NoSQL) saqlanadi.</p>
+          </div>
+          <div class="legal-summary-card">
+            <div class="lsc-top">
+              <span class="lsc-label">Shaxsiy Ma'lumotlarni To'plash</span>
+              <span class="legal-status-tag no">✗ To'planmaydi</span>
+            </div>
+            <p class="lsc-desc">Ism, telefon raqam, elektron pochta, kontaktlar va aniq geolokatsiya talab qilinmaydi va yig'ilmaydi.</p>
+          </div>
+          <div class="legal-summary-card">
+            <div class="lsc-top">
+              <span class="lsc-label">Tijorat Reklamasi</span>
+              <span class="legal-status-tag no">✗ Mavjud Emas</span>
+            </div>
+            <p class="lsc-desc">Ilovada Google AdMob, Meta Audience Network yoki boshqa reklama SDK-lari umuman mavjud emas.</p>
+          </div>
+          <div class="legal-summary-card">
+            <div class="lsc-top">
+              <span class="lsc-label">Xatti-harakat Analitikasi</span>
+              <span class="legal-status-tag no">✗ Mavjud Emas</span>
+            </div>
+            <p class="lsc-desc">Foydalanuvchilar harakatlarini kuzatuvchi hech qanday telemetriya yoki tahliliy trekerlar o'rnatilmagan.</p>
+          </div>
+          <div class="legal-summary-card">
+            <div class="lsc-top">
+              <span class="lsc-label">Uchinchi Shaxslarga Sotish</span>
+              <span class="legal-status-tag no">✗ Qat'iyan Man Etilgan</span>
+            </div>
+            <p class="lsc-desc">Foydalanuvchiga tegishli hech qanday ma'lumot uchinchi tomonlarga sotilmaydi, ijaraga berilmaydi yoki uzatilmaydi.</p>
+          </div>
+          <div class="legal-summary-card">
+            <div class="lsc-top">
+              <span class="lsc-label">Bolalar Xavfsizligi (COPPA)</span>
+              <span class="legal-status-tag yes">✓ To'liq Mos</span>
+            </div>
+            <p class="lsc-desc">13 yoshga to'lmagan bolalardan hech qanday ma'lumot olinmaydi, ta'limiy maqsadlar uchun xavfsiz.</p>
+          </div>
         </div>
 
         <!-- TABLE OF CONTENTS -->
         <nav class="legal-toc" aria-label="Hujjat Mundarijasi">
           <div class="legal-toc-title">Mundarija</div>
-          <ol class="legal-toc-list">
+          <ul class="legal-toc-list">
             <li><a href="#section-1">&sect; 1. Umumiy Qoidalar va Ma'lumot Nazoratchisi</a></li>
             <li><a href="#section-2">&sect; 2. Offline-First Arxitekturasi va Lokal Ma'lumotlar Bazasi</a></li>
             <li><a href="#section-3">&sect; 3. Shaxsiy Ma'lumotlarning To'planmasligi Kafolati</a></li>
@@ -128,7 +129,7 @@
             <li><a href="#section-9">&sect; 9. Axborot Xavfsizligi Choralari</a></li>
             <li><a href="#section-10">&sect; 10. Maxfiylik Siyosatiga O'zgartirishlar Kiritish Tartibi</a></li>
             <li><a href="#section-11">&sect; 11. Bog'lanish va Rasmiy Murojaat</a></li>
-          </ol>
+          </ul>
         </nav>
 
         <!-- LEGAL BODY -->
@@ -185,42 +186,31 @@
             <li>Qurilmaning doimiy apparat identifikatorlari (IMEI, MAC-manzil, Android ID, Google Advertising ID).</li>
           </ul>
 
-          <h2 id="section-4">&sect; 4. Operatsion Tizim Ruxsatlari va Ularning Maqsadi</h2>
+          <h2 id="section-4">&sect; 4. Operatsion Tizim Ruxsatlari (Permissions) va Ularning Maqsadi</h2>
           <p>
             4.1. Ilova faqat uning asosiy funksiyalarini bajarish uchun zarur bo'lgan minimal Android ruxsatlaridan foydalanadi:
           </p>
-          <div class="legal-table-wrap">
-            <table class="legal-data-table">
-              <thead>
-                <tr>
-                  <th>Ruxsat Nomi</th>
-                  <th>Operatsion Maqsadi</th>
-                  <th>Majburiylik Darajasi</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><code>android.permission.INTERNET</code></td>
-                  <td>Nayza Cloud kutubxonasidan ommaviy lug'at to'plamlarini yuklab olish hamda yangi versiyalarni tekshirish.</td>
-                  <td>Majburiy (faqat onlayn amallar uchun)</td>
-                </tr>
-                <tr>
-                  <td><code>android.permission.VIBRATE</code></td>
-                  <td>Interaktiv testlar paytida to'g'ri yoki noto'g'ri javoblar uchun haptik (taktil) aloqa berish.</td>
-                  <td>Ixtiyoriy (sozlamalardan o'chirish mumkin)</td>
-                </tr>
-                <tr>
-                  <td><code>android.permission.POST_NOTIFICATIONS</code></td>
-                  <td>Kunlik so'z takrorlash eslatmalarini foydalanuvchi belgilagan vaqtda ko'rsatish (Android 13+).</td>
-                  <td>Ixtiyoriy (foydalanuvchi roziligi bilan)</td>
-                </tr>
-                <tr>
-                  <td><code>android.permission.SCHEDULE_EXACT_ALARM</code></td>
-                  <td>Kunlik lug'at eslatmasini foydalanuvchi tanlagan aniq vaqtda yetkazish.</td>
-                  <td>Ixtiyoriy (eslatma yoqilganda ishlatiladi)</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="legal-perm-cards">
+            <div class="legal-perm-card">
+              <div class="lpc-name"><code>INTERNET</code></div>
+              <p class="lpc-desc">Nayza Cloud kutubxonasidan ommaviy lug'at to'plamlarini yuklab olish hamda yangi versiyalarni tekshirish.</p>
+              <span class="lpc-badge mandatory">Majburiy (faqat onlayn amallar uchun)</span>
+            </div>
+            <div class="legal-perm-card">
+              <div class="lpc-name"><code>VIBRATE</code></div>
+              <p class="lpc-desc">Interaktiv testlar paytida to'g'ri yoki noto'g'ri javoblar uchun haptik (taktil) aloqa berish.</p>
+              <span class="lpc-badge optional">Ixtiyoriy (sozlamalardan o'chirish mumkin)</span>
+            </div>
+            <div class="legal-perm-card">
+              <div class="lpc-name"><code>POST_NOTIFICATIONS</code></div>
+              <p class="lpc-desc">Kunlik so'z takrorlash eslatmalarini foydalanuvchi belgilagan vaqtda ko'rsatish (Android 13+).</p>
+              <span class="lpc-badge optional">Ixtiyoriy (foydalanuvchi roziligi bilan)</span>
+            </div>
+            <div class="legal-perm-card">
+              <div class="lpc-name"><code>SCHEDULE_EXACT_ALARM</code></div>
+              <p class="lpc-desc">Kunlik lug'at eslatmasini foydalanuvchi tanlagan aniq vaqtda yetkazish.</p>
+              <span class="lpc-badge optional">Ixtiyoriy (eslatma yoqilganda ishlatiladi)</span>
+            </div>
           </div>
 
           <h2 id="section-5">&sect; 5. Tarmoq Aloqasi va Uchinchi Tomon Xizmatlari</h2>
@@ -310,8 +300,7 @@
           <ul>
             <li><strong>Loyiha Muallifi:</strong> Ismoil G'aynazarov (@ismaaiiyl)</li>
             <li><strong>Rasmiy Elektron Pochta:</strong> <a href="mailto:ismaaiiyl@gmail.com" style="color: var(--gold-primary);">ismaaiiyl@gmail.com</a></li>
-            <li><strong>Ochiq Kodli Repozitoriya:</strong> <a href="https://github.com/NayzaVocab/android" target="_blank" rel="noopener" style="color: var(--gold-primary);">github.com/NayzaVocab/android</a></li>
-            <li><strong>Tashkilot Sahifasi:</strong> <a href="https://github.com/NayzaVocab" target="_blank" rel="noopener" style="color: var(--gold-primary);">github.com/NayzaVocab</a></li>
+            <li><strong>Ochiq Kodli Repozitoriya:</strong> <a href="https://github.com/ismaaiiyl/NayzaVocab" target="_blank" rel="noopener" style="color: var(--gold-primary);">github.com/ismaaiiyl/NayzaVocab</a></li>
           </ul>
 
         </div>

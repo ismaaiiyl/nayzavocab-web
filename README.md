@@ -13,7 +13,7 @@
 ## ✨ Imkoniyatlar (Features)
 
 - ⚡ **Zero-Bloat & Lightning Fast:** Og'ir freymvorklarsiz, toza Vanilla HTML5, CSS3 va JavaScript asosida yozilgan.
-- 🔄 **Dinamik GitHub Release Integratsiyasi:** GitHub API (`NayzaVocab/android`) orqali eng so'nggi APK relizi (`v1.0.4+`), uning hajmi va yuklab olish havolasini avtomatik yangilab turadi.
+- 🔄 **Dinamik GitHub Release Integratsiyasi:** GitHub API (`ismaaiiyl/NayzaVocab`) orqali eng so'nggi APK relizi (`v1.0.4+`), uning hajmi va yuklab olish havolasini avtomatik yangilab turadi.
 - 📱 **Interaktiv Telefon Mockup:** Foydalanuvchilar Asosiy, Kutubxona va Yangilanish ekranlarini brauzerda interaktiv ko'ra oladi.
 - ⚖️ **Google Play Talablariga Mos Yuridik Hujjatlar:**
   - [Maxfiylik Siyosati (Privacy Policy)](https://nayzavocab.ismaaiiyl.me/privacy)
@@ -82,8 +82,7 @@ python -m http.server 8000
 
 **Ismoil G'aynazarov** ([@ismaaiiyl](https://github.com/ismaaiiyl))  
 *Creator of Nayza Vocab Platform* 🔱  
-- Tashkilot: [Nayza Vocab Organization](https://github.com/NayzaVocab)  
-- Android Repo: [NayzaVocab/android](https://github.com/NayzaVocab/android)  
+- Android Repo: [ismaaiiyl/NayzaVocab](https://github.com/ismaaiiyl/NayzaVocab)  
 - Email: [ismaaiiyl@gmail.com](mailto:ismaaiiyl@gmail.com)
 
 ---
